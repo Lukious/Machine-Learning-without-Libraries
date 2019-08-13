@@ -44,7 +44,7 @@ def train_svm(X, Y, epochs=10000, learning_rate=1):
     return w
 
 def predict(X, w):
-    Y = np.dot(X, w))
+    Y = np.dot(X, w)
     return Y
 
 def show_svm_graph(X, Y, w):
